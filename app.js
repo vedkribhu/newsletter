@@ -23,7 +23,7 @@ app.post("/", function(req, resp)
 
 var data =
 {
-    memebers: [{email_address: email, status: "subscribed", merge_fields: {FNAME: firstName, LNAME: secondName} }]
+    members: [{email_address: email, status: "subscribed", merge_fields: {FNAME: firstName, LNAME: secondName} }]
 }
 
 var jsonData = JSON.stringify(data);
